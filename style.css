@@ -1,0 +1,32 @@
+body{
+    background-image: url('https://www.snowingchristmastree.com/wp-content/themes/holidaycheer/images/snowingbg.gif');
+    background-size: cover;
+    
+    background-color: black;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+    
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    
+    color: black;
+}
+#text{
+	color: black;
+	font-size: 40px;
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+}
+#link{
+   color: white;
+}
+#no {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
