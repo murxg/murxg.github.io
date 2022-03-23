@@ -1,7 +1,7 @@
 # Snow
-### What is this?
+## What is this?
 This repository is just for my browser.
-### FAQ
+## FAQ
 #### Can I open this with other browsers?
 Yes.
 #### What is this?
