@@ -7,4 +7,4 @@ Yes.
 #### What is this?
 Read [this](https://github.com/TheNPCFISH/thenpcfish.github.io/new/main?readme=1#what-is-this)
 #### How I can open this website?
-Open [https://thenpcfish.hithub.io](https://thenpcfish.github)
+Open [https://thenpcfish.github.io](https://thenpcfish.github.io)
