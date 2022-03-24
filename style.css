@@ -1,4 +1,5 @@
 body{
+    text-decoration: none;
     background-image: url('https://www.snowingchristmastree.com/wp-content/themes/holidaycheer/images/snowingbg.gif');
     background-size: cover;
     
@@ -23,11 +24,16 @@ body{
    color: white;
 }
 #no {
-    color: white;
+    color: black;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+div{
+    
 }
