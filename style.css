@@ -32,6 +32,6 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
 }
-div{
-    
+html{
+    backround-color: black;
 }
