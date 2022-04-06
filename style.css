@@ -3,9 +3,10 @@ body{
     
     background-color: black;
     
-    height: 100vh;
+    height: 100%;
     padding:0;
     margin:0;
+    overscroll: auto;
     
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
@@ -34,4 +35,6 @@ body{
 }
 html{
     backround-color: black;
+	height: 100%;
+	overscroll: none;
 }
