@@ -34,7 +34,8 @@ body{
     -webkit-text-stroke-color: white;
 }
 html{
-    backround-color: black;
+        background-color: black;
 	height: 100%;
 	overscroll: hidden;
+	background-size: cover;
 }
