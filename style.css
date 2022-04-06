@@ -36,5 +36,5 @@ body{
 html{
     backround-color: black;
 	height: 100%;
-	overscroll: none;
+	overscroll: hidden;
 }
