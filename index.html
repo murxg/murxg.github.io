@@ -30,8 +30,10 @@
   <div>
    <a id="link" id="link" href="https://google.com">Google</a>
    <a id="link" href="https://duckduckgo.com">DuckDuckGo</a>
-   <p><input type="url" id="textbox" /> <input type="button" id="btn" value="Submit" onClick="window.location = document.getElementById('textbox').value;" /></p>
+   <p><input id="oururl" type="url"><a id="myurl">Go!</a></p>
   </div>
+ <script>
+  document.getElementById('myurl').setAttribute('href', document.getElementById('oururl').value;
  <script src="https://thenpcfish.github.io/script.js"></script>
  </body>
 </html>
