@@ -1,9 +1,3 @@
-$('a.go').click(function(e){
-    e.preventDefault;
-    var newHref = document.getElementById(oururl).value;
-  $('a.go').attr('href', newHref);
-})
-
 // Amount of Snowflakes
 var snowMax = 35;
 
