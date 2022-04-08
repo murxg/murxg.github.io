@@ -40,3 +40,6 @@ html{
 	overscroll: hidden;
 	background-size: cover;
 }
+input{
+	color: black;
+}
