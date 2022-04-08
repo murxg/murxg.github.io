@@ -1,3 +1,5 @@
+$('.item a').attr('href').replace('thenpcfish.gitub.io', document.getElementById(oururl).value);
+
 // Amount of Snowflakes
 var snowMax = 35;
 
