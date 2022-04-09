@@ -25,9 +25,6 @@
  
  <title>Snow</title>
  <link rel="stylesheet" href="style.css">
- <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
  <center id="text">
@@ -36,9 +33,12 @@
    <a id="link" id="link" href="https://google.com">Google</a>
    <a id="link" href="https://duckduckgo.com">DuckDuckGo</a>
   </div>
-  <div>
-   <p><input type="url" id="textbox" /> <input type="button" id="btn" value="Submit" onClick="window.location = document.getElementById('textbox').value;" /></p>
+  <div class="form__group field">
+    <input type="url" class="form__field" placeholder="URL" name="name" id='textbox' required />
+    <label for="name" class="form__label">
+   </label>
+   <input type="button" id="btn" value="Submit" onClick="window.location = document.getElementById('textbox').value;"/>
   </div>
- <script src="https://thenpcfish.github.io/script.js"></script>
+ <script src="script.js"></script>
  </body>
 </html>
