@@ -109,3 +109,18 @@ input{
   font-family: RHMono;
   cursor:pointer;
 }
+#corner {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    background-color: #000;
+    color: #fff;
+}
+#flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
