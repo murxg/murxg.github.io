@@ -1,3 +1,5 @@
+document.getElementsById('textbox')[0].placeholder='URL';
+
 // Amount of Snowflakes
 var snowMax = 35;
 
