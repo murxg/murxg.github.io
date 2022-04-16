@@ -110,5 +110,6 @@ input{
   cursor:pointer;
 }
 #textbox:focus {
-  outline-color:transparent;
+  border-width:0px;
+border:none;
 }
