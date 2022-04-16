@@ -7,8 +7,6 @@ html, body {
   font-family: RHMono;
 }
 body{
-    text-decoration: none;
-    
     background-color: black;
     background-size: cover;
     
@@ -17,16 +15,11 @@ body{
     margin:0;
     overscroll: auto;
     
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
-    
     color: black;
 }
 #text{
 	color: black;
 	font-size: 40px;
-	-webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: white;
 }
 #link{
    color: white;
@@ -50,7 +43,6 @@ html{
 }
 input{
 	font-size: 20px;
-	-webkit-text-stroke-width: 0px;
 	border-color: transparent;
 }
 .form__group {
@@ -111,5 +103,5 @@ input{
 }
 #textbox {
   border-width:0px;
-border:none;
+  border:none;
 }
