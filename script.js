@@ -1,5 +1,3 @@
-document.getElementsById('textbox')[0].placeholder='URL';
-
 // Amount of Snowflakes
 var snowMax = 35;
 
@@ -91,9 +89,14 @@ function moveSnow() {
 for (i = 0; i <= snowMax; i++) {
 	document.write("<span id='flake" + i + "' style='" + snowStyles + "position:absolute;top:-" + snowMaxSize + "'>" + snowEntity + "</span>");
 }
+function url() {
+        document.getElementsById('textbox')[0].placeholder='URL';
+}
 
 window.addEventListener('resize', resize);
 window.addEventListener('load', initSnow);
+
+window.onLoad(url());
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
