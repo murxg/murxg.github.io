@@ -109,3 +109,6 @@ input{
   font-family: RHMono;
   cursor:pointer;
 }
+textarea:focus, input:focus{
+    outline: none;
+}
