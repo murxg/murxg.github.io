@@ -109,7 +109,7 @@ input{
   font-family: RHMono;
   cursor:pointer;
 }
-#textbox:focus {
+#textbox {
   border-width:0px;
 border:none;
 }
