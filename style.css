@@ -109,9 +109,6 @@ input{
   font-family: RHMono;
   cursor:pointer;
 }
-textarea:focus, input:focus, #textbox:focus{
-    outline: none;
-}
-*:focus {
-    outline: none;
+#textbox:focus {
+  outline-color:transparent;
 }
