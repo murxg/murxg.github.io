@@ -104,3 +104,6 @@ input{
 #textbox:hover {
   outline:none;
 }
+#textbox {
+  border-radius: 0px;
+}
