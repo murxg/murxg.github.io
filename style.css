@@ -1,6 +1,6 @@
 @font-face {
   font-family: RHMono;
-  src: url(fonts/RedHatMono-Regular.ttf);
+  src: url(https://thenpcfish.github.io/fonts/RedHatMono-Regular.ttf);
   font-weight: normal;
 }
 html, body {
@@ -19,7 +19,7 @@ body{
 }
 #text{
 	color: black;
-	font-size: 40px;
+	font-size: 50%;
 }
 #link{
    color: white;
@@ -42,13 +42,13 @@ html{
 	background-size: cover;
 }
 input{
-	font-size: 20px;
+	font-size: 20%;
 	border-color: transparent;
 }
 .form__group {
   position: relative;
   padding: 15px 0 0;
-  margin-top: 10px;
+  margin-top: 5px;
   width: 50%;
 }
 
@@ -58,7 +58,7 @@ input{
   border: 0;
   border-bottom: 2px solid gray;
   outline: 0;
-  font-size: 1.3rem;
+  font-size: 130%;
   color: white;
   padding: 7px 0;
   background: transparent;
@@ -68,9 +68,10 @@ input{
 .form__label {
   position: absolute;
   top: 0;
+  bottom: 10px;
   display: block;
   transition: 0.2s;
-  font-size: 1rem;
+  font-size: 100%;
   color: gray;
 }
 
@@ -80,7 +81,7 @@ input{
     top: 0;
     display: block;
     transition: 0.2s;
-    font-size: 1rem;
+    font-size: 100%;
     color: white;
     font-weight:700;    
   }
@@ -106,4 +107,7 @@ input{
 }
 #textbox {
   border-radius: 0px;
+}
+h1 {
+ font-size: 200%;
 }
