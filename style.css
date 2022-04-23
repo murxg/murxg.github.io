@@ -1,6 +1,6 @@
 @font-face {
   font-family: RHMono;
-  src: url(fonts/RedHatMono-Regular.ttf);
+  src: url(https://thenpcfish.github.io/fonts/RedHatMono-Regular.ttf);
   font-weight: normal;
 }
 html, body {
@@ -101,9 +101,13 @@ input{
   outline:none;
 }
 #textbox {
+  letter-spacing: -1px;
   border-radius: 0px;
 }
-#logo {
- height: 131px;
- width: 193px;
+#textbox:focus {
+  letter-spacing: -1px;
+}
+img {
+ height: 80px;
+ width: 238px;
 }
