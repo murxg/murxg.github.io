@@ -99,6 +99,7 @@ input{
 }
 #textbox:hover {
   outline:none;
+  border-radius:0px;
 }
 #textbox {
   letter-spacing: -1px;
@@ -106,6 +107,7 @@ input{
 }
 #textbox:focus {
   letter-spacing: -1px;
+	border-radius:0px;
 }
 img {
  height: 80px;
