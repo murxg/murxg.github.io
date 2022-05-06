@@ -100,12 +100,10 @@ input{
 #textbox:hover {
   outline:none;
   border-radius:0px;
-  border:none;
 }
 #textbox {
   letter-spacing: -1px;
   border-radius: 0px;
-  border:none;
 }
 #textbox:focus {
   letter-spacing: -1px;
