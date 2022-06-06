@@ -1,6 +1,13 @@
 function lol(){
  window.location = "//" + document.getElementById('textbox').value;
 }
+const params = new Proxy(new URLSearchParams(window.location.search), {
+   get: (searchParams, prop) => searchParams.get(prop),
+ });
+
+ let OURL = params.ourl;
+
+ document.getElementById('textbox').value = OURL;
 // Amount of Snowflakes
 var snowMax = 35;
 
