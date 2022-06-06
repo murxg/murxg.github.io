@@ -113,6 +113,6 @@ input.addEventListener("keyup", function(event) {
     // Cancel the default action, if needed
     event.preventDefault();
     // Trigger the button element with a click
-    document.getElementById("btn").click();
+    var i; for (i = 0; i < 2; i++){ document.getElementById("btn").click(); }
   }
 }); 
