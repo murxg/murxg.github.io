@@ -1,12 +1,6 @@
 function lol(){
  window.location = "//" + document.getElementById('textbox').value;
 }
-const params = new Proxy(new URLSearchParams(window.location.search), {
-   get: (searchParams, prop) => searchParams.get(prop),
- });
-
- let OURL = params.ourl;
-
  document.getElementById('textbox').value = OURL;
 // Amount of Snowflakes
 var snowMax = 35;
@@ -113,6 +107,6 @@ input.addEventListener("keyup", function(event) {
     // Cancel the default action, if needed
     event.preventDefault();
     // Trigger the button element with a click
-    var i; for (i = 0; i < 2; i++){ document.getElementById("btn").click(); }
+    document.getElementById("btn").click();
   }
 }); 
