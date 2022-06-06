@@ -1,3 +1,6 @@
+function lol(){
+ window.location = "//" + document.getElementById('textbox').value;
+}
 // Amount of Snowflakes
 var snowMax = 35;
 
