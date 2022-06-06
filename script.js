@@ -93,15 +93,6 @@ for (i = 0; i <= snowMax; i++) {
 window.addEventListener('resize', resize);
 window.addEventListener('load', initSnow);
 
-
-const params = new Proxy(new URLSearchParams(window.location.search), {
-  get: (searchParams, prop) => searchParams.get(prop),
-});
-
-let OURL = params.ourl;
-
-document.getElementById('textbox').value = OURL;
-
 // Get the input field
 var input = document.getElementById("textbox");
 
