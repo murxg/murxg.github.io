@@ -1,7 +1,3 @@
-function lol(){
- window.location = "//" + document.getElementById('textbox').value;
-}
- document.getElementById('textbox').value = OURL;
 // Amount of Snowflakes
 var snowMax = 35;
 
@@ -109,4 +105,7 @@ input.addEventListener("keyup", function(event) {
     // Trigger the button element with a click
     document.getElementById("btn").click();
   }
-}); 
+});
+function lol(){
+ window.location = "//" + document.getElementById('textbox').value;
+}
