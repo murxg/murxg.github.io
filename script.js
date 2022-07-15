@@ -22,12 +22,6 @@ var snowRefresh = 50;
 // Additional Styles
 var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
 
-/*
-// End of Configuration
-// ----------------------------------------
-// Do not modify the code below this line
-*/
-
 var snow = [],
 	pos = [],
 	coords = [],
@@ -93,7 +87,7 @@ for (i = 0; i <= snowMax; i++) {
 window.addEventListener('resize', resize);
 window.addEventListener('load', initSnow);
 
-/*// Get the input field
+// Get the input field
 var input = document.getElementById("textbox");
 
 // Execute a function when the user releases a key on the keyboard
@@ -117,4 +111,3 @@ function lol(){
 	if (text.startsWith("//") == true) {
 	    window.location = "//" + text.substring(2);
 }
-*/
