@@ -93,7 +93,7 @@ for (i = 0; i <= snowMax; i++) {
 window.addEventListener('resize', resize);
 window.addEventListener('load', initSnow);
 
-// Get the input field
+/*// Get the input field
 var input = document.getElementById("textbox");
 
 // Execute a function when the user releases a key on the keyboard
@@ -105,7 +105,7 @@ input.addEventListener("keyup", function(event) {
     // Trigger the button element with a click
     document.getElementById("btn").click();
   }
-});
+});*/
 function lol(){
 	var text = document.getElementById('textbox').value;
 	if (text.startsWith("https://") == true) {
