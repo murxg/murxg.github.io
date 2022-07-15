@@ -107,5 +107,13 @@ input.addEventListener("keyup", function(event) {
   }
 });
 function lol(){
- window.location = "//" + document.getElementById('textbox').value;
+	var text = document.getElementById('textbox').value;
+	if (text.startsWith("https://") == true) {
+	    window.location = "//" + text.substring(8);
+	}	
+	if (text.startsWith("http://") == true) {
+	    window.location = "//" + text.substring(7);
+	}
+	if (text.startsWith("//") == true) {
+	    window.location = "//" + text.substring(2);
 }
