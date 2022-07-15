@@ -106,7 +106,6 @@ transition: all 0.4s ease 0s;
   border-image: linear-gradient(to right, white,lightgray);
   border-image-slice: 1;
 }
-/* reset input */
 .form__field{
   &:required,&:invalid { box-shadow:none; }
 }
@@ -127,7 +126,7 @@ transition: all 0.4s ease 0s;
   border-radius: 0px;
 }
 #textbox:focus {
-  letter-spacing: -1px;
+  letter-spacing: -.5px;
 	border-radius:0px;
 }
 img {
