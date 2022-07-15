@@ -38,6 +38,13 @@ transition: all 0.4s ease 0s;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+	transition: all 0.4s ease 0s;
+}
+#no:hover{
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
 }
 html{
    font-size: 100%;
@@ -48,6 +55,13 @@ html{
 }
 input{
 	border-color: transparent;
+	transition: all 0.4s ease 0s;
+}
+input:hover,input:focus{
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
 }
 .form__group {
   position: relative;
