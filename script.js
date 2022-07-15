@@ -86,7 +86,7 @@ for (i = 0; i <= snowMax; i++) {
 
 window.addEventListener('resize', resize);
 window.addEventListener('load', initSnow);
-/*
+
 // Get the input field
 var input = document.getElementById("textbox");
 
@@ -111,4 +111,3 @@ function lol(){
 	if (text.startsWith("//") == true) {
 	    window.location = "//" + text.substring(2);
 }
-*/
