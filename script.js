@@ -88,7 +88,7 @@ window.addEventListener('resize', resize);
 window.addEventListener('load', initSnow);
 
 var input = document.getElementById("textbox");
-
+/*
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -106,3 +106,4 @@ function lol(){
 	if (text.startsWith("//") == true) {
 	    window.location = "//" + text.substring(2);
 }
+*/
