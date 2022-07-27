@@ -17,8 +17,12 @@ function lol(){
 	if (text.startsWith("//") === true) {
 	    window.open(text.replace("//","http://"), "_blank");
         if (text.startsWith("//") === false && text.startsWith("http://") === false && text.startsWith("https://") === false) {
-            var fxdtxt = document.getElementById("textbox").value = "http://" + text;
-	    window.open(fxdtxt, "_blank");
+           if (text.includes("/") === false) {
+ window.location.hostname = text;
+}
+else {
+ window.location = "http://" + text;
+}
         }
         }
 }
