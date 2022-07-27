@@ -45,7 +45,7 @@ html{
 	height: 100%;
 	overscroll: hidden;
 	background-size: cover;
-}/*
+}
 input{
 	border-color: transparent;
 }
@@ -121,7 +121,7 @@ transition: all 0.4s ease 0s;
 #textbox:focus {
   letter-spacing: -.5px;
 	border-radius:0px;
-}*/
+}
 #noimg {
  height: 80px;
  width: 238px;
