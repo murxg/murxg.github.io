@@ -15,9 +15,9 @@ function lol(){
 	    window.open(text, "_blank");
 	}
 	if (text.startsWith("//") == true) {
-	    window.open(text, "_blank");
+	    window.open(text.replace("//","http://"), "_blank");
         if (text.startsWith("//") == false && text.startsWith("http://") == false && text.startsWith("https://") == false) {
-            window.open("//" + text, "_blank");
+            window.open("http://" + text, "_blank");
         }
         }
 }
