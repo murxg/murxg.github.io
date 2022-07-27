@@ -8,15 +8,15 @@ input.addEventListener("keyup", function(event) {
 });
 function lol(){
 	var text = document.getElementById('textbox').value;
-	if (text.startsWith("https://") == true) {
+	if (text.startsWith("https://") === true) {
 	    window.open(text, "_blank");
 	}	
-	if (text.startsWith("http://") == true) {
+	if (text.startsWith("http://") === true) {
 	    window.open(text, "_blank");
 	}
-	if (text.startsWith("//") == true) {
+	if (text.startsWith("//") === true) {
 	    window.open(text.replace("//","http://"), "_blank");
-        if (text.startsWith("//") == false && text.startsWith("http://") == false && text.startsWith("https://") == false) {
+        if (text.startsWith("//") === false && text.startsWith("http://") === false && text.startsWith("https://") === false) {
             window.open("http://" + text, "_blank");
         }
         }
