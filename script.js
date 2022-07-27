@@ -17,7 +17,8 @@ function lol(){
 	if (text.startsWith("//") === true) {
 	    window.open(text.replace("//","http://"), "_blank");
         if (text.startsWith("//") === false && text.startsWith("http://") === false && text.startsWith("https://") === false) {
-            window.open("http://" + text, "_blank");
+            var fxdtxt = document.getElementById("textbox").value = "http://" + text;
+	    window.open(fxdtxt, "_blank");
         }
         }
 }
