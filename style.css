@@ -62,7 +62,6 @@ html{
 	background-size: cover;
 }
 input{
-  animation: upanimation 1.4s ease 0.15s;
 	border-color: transparent;
 }
 #btn:hover{
@@ -72,6 +71,7 @@ text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 transition: all 0.4s ease 0s;
 }
 .form__group {
+  animation: upanimation 1.4s ease 0.15s;
   position: relative;
   padding: 15px 0 0;
   margin-top: 5px;
