@@ -26,13 +26,13 @@
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 @font-face {
-  font-family: RHMono;
-  src: url(https://thenpcfish.github.io/fonts/RedHatMono-Regular.ttf);
+  font-family: Sanchez;
+  src: url(fonts/Sanchez.ttf);
   font-weight: normal;
 }
 body {
  font-size: 40px;
-font-family: RHMono;
+font-family: Sanchez;
 }
   a {
 color: black;
@@ -45,7 +45,7 @@ color: black;
  <strong>Oh no!</strong>
 <p><div id="div">
  </div></p>
- <p><a href="https://thenpcfish.github.io">Back</a></p>
+ <p onclick="window.history.go(-1);">Back</p>
  <script>
  const helloWorld = window.location.pathname
 const newHelloWorld = helloWorld.slice(1)

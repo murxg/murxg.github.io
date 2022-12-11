@@ -1,10 +1,10 @@
 @font-face {
-  font-family: RHMono;
-  src: url(fonts/RedHatMono-Regular.ttf);
+  font-family: Sanchez;
+  src: url(fonts/Sanchez.ttf);
   font-weight: normal;
 }
 html, body {
-  font-family: RHMono;
+  font-family: Sanchez;
 }
 body{
     background-color: black;
@@ -106,7 +106,7 @@ transition: all 0.4s ease 0s;
   background-color: transparent;
   color: white;
   border-radius: 10px;
-  font-family: RHMono;
+  font-family: Sanchez;
   cursor:pointer;
 	transition: all 0.4s ease 0s;
 }
