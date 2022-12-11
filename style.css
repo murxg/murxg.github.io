@@ -5,10 +5,10 @@
 }
 @keyframes up {
   0%{
-    translate-y: 100%;
+    transform:translateY(100%);
   }
   100%{
-    translate-y: 0%;
+    transform: translateY(0%);
   }
 }
 html, body {
