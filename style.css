@@ -17,9 +17,6 @@
 html, body {
   font-family: Sanchez;
 }
-#text {
-    animation: upanimation 1s ease;
-}
 body{
     background-color: black;
     background-size: cover;
@@ -46,6 +43,7 @@ text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 transition: all 0.4s ease 0s;
 }
 #no {
+    animation: upanimation 1s ease;
     color: black;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
