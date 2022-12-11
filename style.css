@@ -32,7 +32,7 @@ body{
 	color: black;
 }
 #link{
-   animation: upanimation 1.5s ease 0.1s;
+   animation: upanimation 1.5s ease 0.2s;
    color: white;
    transition: all 0.4s ease 0s;
 }
@@ -71,7 +71,7 @@ text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 transition: all 0.4s ease 0s;
 }
 .form__group {
-  animation: upanimation 1.4s ease 0.15s;
+  animation: upanimation 1.4s ease 0.3s;
   position: relative;
   padding: 15px 0 0;
   margin-top: 5px;
