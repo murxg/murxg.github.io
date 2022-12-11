@@ -15,7 +15,7 @@ html, body {
   font-family: Sanchez;
 }
 body{
-    animation: up 1 ease-out;
+    animation: up 1s ease-out;
     background-color: black;
     background-size: cover;
     
