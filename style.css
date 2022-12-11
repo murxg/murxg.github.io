@@ -3,10 +3,19 @@
   src: url(fonts/Sanchez.ttf);
   font-weight: normal;
 }
+@keyframes up {
+  0%{
+    translate-y: 100%;
+  }
+  100%{
+    translate-y: 0%;
+  }
+}
 html, body {
   font-family: Sanchez;
 }
 body{
+    animation: up 1 ease-out;
     background-color: black;
     background-size: cover;
     
