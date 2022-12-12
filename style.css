@@ -3,6 +3,12 @@
   src: url(fonts/Sanchez.ttf);
   font-weight: normal;
 }
+a { text-decoration: none; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
 @keyframes upanimation {
   0%{
     opacity:0;
