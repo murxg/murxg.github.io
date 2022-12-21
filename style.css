@@ -3,6 +3,10 @@
   src: url(fonts/Sanchez.ttf);
   font-weight: normal;
 }
+#noimg {
+  width:5%;
+  height:5%;
+}
 a { text-decoration: none; }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
