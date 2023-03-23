@@ -16,5 +16,5 @@ jobs:
     - name: Discord Webhook Action
       uses: tsickert/discord-webhook@v5.3.0
       with:
-        webhook-url: ${{ secrets.webhook_token }}
+        webhook-url: ${{ secrets.WEBHOOK_TOKEN }}
         content: ${{ github.event.head_commit.message }}
