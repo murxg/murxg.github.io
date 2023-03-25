@@ -151,7 +151,3 @@ transition: all 0.4s ease 0s;
   letter-spacing: -.5px;
 	border-radius:0px;
 }
-#counter {
-	color: white;
-	animation: upanimation 1.2s ease;
-}
