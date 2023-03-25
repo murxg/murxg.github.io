@@ -1,44 +1,60 @@
 <!doctype html>
 <html>
 <head>
- 
- <meta property="og:image:width" content="279">
-<meta property="og:image:height" content="279">
-<meta property="og:title" content="Snow">
-<meta property="og:description" content="Snow is website that works like browser. But we have a browser and  it&rsquo;s coming soon!">
-<meta property="og:url" content="https://thenpcfish.github.io">
-<meta property="og:image" content="https://thenpcfish.github.io/logo.png">
- 
- <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-<link rel="manifest" href="/assets/site.webmanifest">
-<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#000000">
-<link rel="shortcut icon" href="/assets/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Snow">
-<meta name="application-name" content="Snow">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
-<meta name="msapplication-config" content="/assets/browserconfig.xml">
-<meta name="theme-color" content="#000000">
- 
- <title>Snow</title>
- <link rel="stylesheet" href="style.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#000000">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="My Snow">
+  <meta name="application-name" content="My Snow">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/browserconfig.xml">
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" />
+  
+  <meta property="og:image" content="/og-image.jpg">
+<meta property="og:image:width" content="1333">
+<meta property="og:image:height" content="2000">
+<meta property="og:title" content="My Snow">
+<meta property="og:description" content="Welcome to your Snow">
+<meta property="og:url" content="https://mysnow.org">
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Welcome to your Snow">
+  <meta name="keywords" content="Snow, NPCFISH, Mysnow.org, MySnow.org, thenpcfish.github.io, TheNPCFISH, Browser, URL, Web, web, url, browser, snow, mysnow.org, My Snow, my, my snow">
+  <meta name="author" content="NPCFISH">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snow</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="snow.js"></script>
 </head>
 <body>
  <center id="text">
-  <a href=index.html><h1 id="no"><img src="https://thenpcfish.github.io/logo.png"></img></h1></a>
-  <div>
-   <a id="link" id="link" href="https://google.com">Google</a>
-   <a id="link" href="https://duckduckgo.com">DuckDuckGo</a>
+  <div id="logoarea"><a id="logo" href="https://thenpcfish.github.io"><h1 id="no"><img id="noimg" src="logo.png"></img></h1></a></div>
+  <div id="links">
+   <a id="link" href="pc">Purple Clicks</a><br>
+   <a id="link" href="studio">Studio</a><br>
+    <a id="link" href="Luck">Luck!</a><br>
+    <a id="link" href="calculator">Calculator</a><br>
+   <a id="link" href="https://discord.gg/ctVBcJB4j2">Discord</a><br>
+   <a id="link" href="https://reddit.com/r/mysnow">Reddit</a>
   </div>
+  <br>
+  <!--<a style="cursor:default;color:black;" href="npcfish.html">Made by NPCFISH</a>-->
+  
   <div class="form__group field">
-    <input type="url" class="form__field" placeholder="URL" name="name" id='textbox' required />
+    <input type="url" autocomplete="off" class="form__field" placeholder="URL" name="ourl" id='textbox' required />
     <label for="name" class="form__label">
    </label>
-   <input type="button" id="btn" value="Submit" onClick="window.location = document.getElementById('textbox').value;"/>
-  </div>
+   <input type="button" name="btn" id="btn" value="Submit" onClick="lol();">
+    </div>
+ </center>
  <script src="script.js"></script>
+  <img id="no" style="opacity:0;" src="npcfish.png" title="NPCFISH" alt="NPCFISH">
  </body>
 </html>

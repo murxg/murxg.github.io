@@ -1,14 +1,35 @@
 @font-face {
-  font-family: RHMono;
-  src: url(fonts/RedHatMono-Regular.ttf);
+  font-family: Sanchez;
+  src: url(fonts/Sanchez.ttf);
   font-weight: normal;
 }
+
+#noimg {
+  width:20%;
+  height:20%;
+}
+a { text-decoration: none; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+@keyframes upanimation {
+  0%{
+    opacity:0;
+    transform:translateY(-100%);
+  }
+  100%{
+    opacity:1;
+    transform: translateY(0%);
+  }
+}
+
 html, body {
-  font-family: RHMono;
+  position: relative;
+  font-family: Sanchez;
 }
 body{
-    text-decoration: none;
-    
     background-color: black;
     background-size: cover;
     
@@ -17,19 +38,26 @@ body{
     margin:0;
     overscroll: auto;
     
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
-    
     color: black;
 }
 #text{
 	color: black;
-	font-size: 40px;
-	-webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: white;
+}
+#links {
+   animation: upanimation 1s ease;
 }
 #link{
    color: white;
+   transition: all 0.4s ease 0s;
+}
+#link:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+#logoarea {
+	animation: upanimation 1s ease;
 }
 #no {
     color: black;
@@ -39,24 +67,28 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
 }
 html{
-        background-color: black;
+   font-size: 100%;
+   background-color: black;
 	height: 100%;
 	overscroll: hidden;
 	background-size: cover;
 }
 input{
-	font-size: 20px;
-	color: black;
-	-webkit-text-stroke-width: 0px;
+	border-color: transparent;
+}
+#btn:hover{
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
 }
 .form__group {
+  animation: upanimation 1s ease;
   position: relative;
   padding: 15px 0 0;
-  margin-top: 10px;
+  margin-top: 5px;
   width: 50%;
 }
 
@@ -66,7 +98,6 @@ input{
   border: 0;
   border-bottom: 2px solid gray;
   outline: 0;
-  font-size: 1.3rem;
   color: white;
   padding: 7px 0;
   background: transparent;
@@ -76,29 +107,27 @@ input{
 .form__label {
   position: absolute;
   top: 0;
+  bottom: 10px;
   display: block;
   transition: 0.2s;
-  font-size: 1rem;
   color: gray;
 }
-
 .form__field:focus {
- ~ .form__label {
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: white;
-    font-weight:700;    
-  }
-  padding-bottom: 6px;  
-  font-weight: 700;
-  border-width: 3px;
-  border-image: linear-gradient(to right, white,lightgray);
-  border-image-slice: 1;
+	 padding-bottom: 6px;
+	 font-weight: 700;
+	 border-width: 3px;
+	 border-image: linear-gradient(to right, white, lightgray);
+	 border-image-slice: 1;
 }
-/* reset input */
+ .form__field:focus ~ .form__label {
+	 position: absolute;
+	 top: 0;
+	 display: block;
+	 transition: 0.2s;
+	 font-size: 100%;
+	 color: white;
+	 font-weight: 700;
+}
 .form__field{
   &:required,&:invalid { box-shadow:none; }
 }
@@ -106,4 +135,19 @@ input{
   background-color: transparent;
   color: white;
   border-radius: 10px;
+  font-family: Sanchez;
+  cursor:pointer;
+	transition: all 0.4s ease 0s;
+}
+#textbox:hover {
+  outline:none;
+  border-radius:0px;
+}
+#textbox {
+  letter-spacing: -1px;
+  border-radius: 0px;
+}
+#textbox:focus {
+  letter-spacing: -.5px;
+	border-radius:0px;
 }
