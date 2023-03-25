@@ -153,4 +153,5 @@ transition: all 0.4s ease 0s;
 }
 #counter {
 	color: white;
+	animation: upanimation 1s ease;
 }
