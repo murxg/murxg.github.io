@@ -48,7 +48,7 @@ function initSnow() {
 		snow[i].size = randomise(snowSize) + snowMinSize;
 		snow[i].style.fontSize = snow[i].size + "px";
 		snow[i].style.color = snowColor[randomise(snowColor.length)];
-		snow[i].style.zIndex = 1000;
+		snow[i].style.zIndex = Math.random() < 0.5 ? -10 : 10;
 		snow[i].sink = snowSpeed * snow[i].size / 5;
 		snow[i].posX = randomise(marginRight - snow[i].size);
 		snow[i].posY = randomise(2 * marginBottom - marginBottom - 2 * snow[i].size);
@@ -60,8 +60,8 @@ function initSnow() {
 }
 
 function resize() {
-	marginBottom = document.body.scrollHeight - 5;
-	marginRight = document.body.clientWidth - 15;
+	marginBottom = document.body.scrollHeight;
+	marginRight = document.body.clientWidth;
 }
 
 function moveSnow() {
