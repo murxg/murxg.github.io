@@ -37,7 +37,7 @@
  <center id="text">
   <div id="logoarea"><a id="logo" href="https://thenpcfish.github.io"><h1 id="no"><img id="noimg" src="logo.png"></img></h1></a></div>
   <div id="links">
-    <img src="https://hitwebcounter.com/counter/counter.php?page=8416218&style=0025&nbdigits=9&type=page&initCount=0" title="Counter" Alt="Counter"   border="0" /><br>
+    <img onload="loadimg(this)" style="opacity:0;" src="https://hitwebcounter.com/counter/counter.php?page=8416218&style=0025&nbdigits=9&type=page&initCount=0" title="Counter" Alt="Counter"   border="0" /><br>
     <a id="link" href="pc">Purple Clicks</a><br>
     <a id="link" href="studio">Studio</a><br>
     <a id="link" href="Luck">Luck!</a><br>
@@ -57,6 +57,12 @@
     </div>
  </center>
  <script src="script.js"></script>
+ <script>
+  function loadimg(img) {
+    img.style.opacity = 1;
+    img.setAttribute("id","visits");
+  }
+ </script>
   <img id="no" style="opacity:0;" src="npcfish.png" title="NPCFISH" alt="NPCFISH">
  </body>
 </html>
