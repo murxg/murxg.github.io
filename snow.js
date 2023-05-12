@@ -5,7 +5,7 @@ var snowMax = 35;
 var snowColor = ["#fff"];
 
 // Snow Entity
-var snowEntity = "&#x2022;";
+var snowEntity = "&#x002A;"; // &#x2022;
 
 // Falling Velocity
 var snowSpeed = 0.75;
@@ -17,7 +17,7 @@ var snowMinSize = 8;
 var snowMaxSize = 24;
 
 // Refresh Rate (in milliseconds)
-var snowRefresh = 50;
+var snowRefresh = 33.33; // 50
 
 // Additional Styles
 var snowStyles = "cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;";
@@ -48,7 +48,7 @@ function initSnow() {
 		snow[i].size = randomise(snowSize) + snowMinSize;
 		snow[i].style.fontSize = snow[i].size + "px";
 		snow[i].style.color = snowColor[randomise(snowColor.length)];
-		snow[i].style.zIndex = Math.random()*2|10 || -10;
+		snow[i].style.zIndex = -10;
 		snow[i].sink = snowSpeed * snow[i].size / 5;
 		snow[i].posX = randomise(marginRight - snow[i].size);
 		snow[i].posY = randomise(2 * marginBottom - marginBottom - 2 * snow[i].size);
